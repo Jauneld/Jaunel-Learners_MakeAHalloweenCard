@@ -1,0 +1,74 @@
+/* Insert any CSS code below here */
+
+#outside {
+  z-index: 1;
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: 1s;
+  transform-origin: 0;
+}
+
+.open-card {
+  transform: rotateY(90deg);
+}
+
+#outside-title {
+  color: #e67d48;
+  font-family: Garamond;
+  font-size: 60pt;
+  text-align: center;
+  background-color:;
+}
+
+#outside-pic {
+  width: 400px;
+  height: 270px;
+}
+
+#outside-pic-one {
+  width: 400px;
+  height: 270px;
+}
+
+#outside-help {
+  color: black;
+  font-family: Courier;
+  font-size: 12pt;
+  text-align: center;
+  padding: 20px;
+}
+
+#inside {
+  z-index: 0;
+  position: absolute;
+  background-image: linear-gradient(to bottom right, #EB6121, #C8522B, #A64435, #83353E, #612748, #3E1852);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+#inside-title {
+  color: black;
+  font-family: Georgia;
+  font-size: 48pt;
+  text-align: center;
+}
+
+#inside-pic {
+  width: 325px;
+  height: 250px;
+}
+
+#message {
+  color: black;
+  font-family: georgia;
+  font-size: 35pt;
+  text-align: center;
+}
+
+button {
+  background: orange;
+}
